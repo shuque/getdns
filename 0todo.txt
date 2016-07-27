@@ -1,0 +1,9 @@
+* Error testing: nxdomain, nodata, servfail etc?
+* Create proper response dictionary structure?
+* Support extensions (probably after DNSSEC support, because a lot of
+  the extensions are related to DNSSEC).
+* Support multiple upstream servers
+* Implement Iterative resolution
+* DNSSEC validation
+* Implement async functions? 
+  Or delegate to Go programmer using goroutines & channels?
